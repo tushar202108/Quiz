@@ -78,3 +78,27 @@ body{
 .incorrect{
     background-color: rgb(230, 156, 156);
 }
+@media only screen and (max-width: 600px) {
+    .parentcontainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15vh;
+    }
+    .container {
+        width: 90%;
+        margin-top: 5%;
+        height: 55vh;
+    }
+    .question {
+        font-size: 16px;
+    }
+    .buton{
+        height: 6vh;
+        width: 100%;
+    }
+    .next {
+        height: 6vh;
+        width: 40%;
+    }
+}
